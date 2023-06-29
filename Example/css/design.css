@@ -1,0 +1,17 @@
+/* CSS for adding content example */
+
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
+body { 
+    font-family: 'proxima-nova', sans-serif;
+    background: url("../images/dark-background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;}
+h1, h3, p {
+    color: #1DB954;
+    /* text-indent: 50px; */
+    text-align: center;
+}
