@@ -1,0 +1,96 @@
+/* CSS for adding content example */
+
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
+body { 
+    font-family: 'proxima-nova', sans-serif;
+    background: url("../images/dark-background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    margin: 0;}
+	
+h1, h3, p {
+    color: #1DB954;
+    /* text-indent: 50px; */
+    text-align: center;
+}
+
+.topBanner {
+	background-color: #C0E5D2;
+	height: 175px;
+}
+
+.topnav {
+	overflow: hidden;
+	float: right;
+	padding: 14px 16px;
+}
+
+.topnav a {
+	float: right;
+	color: #1DB954;
+	text-align: center;
+	font-size: 18px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: #6A9E85;
+	color: black;
+	border-radius: 8px;
+}
+
+.topnav a:active {
+	background-color: #1DB954;
+	color: white;
+}
+
+.title {
+	text-align: center;
+	font-size: 24px;
+}
+
+.centerTitle {
+	position: fixed;
+	width: 700px;
+	left: 50%;
+	margin-left: -350px; /* Half of the width */
+}
+
+.logoImg {
+	padding: 30px;
+	position: absolute;
+	left: 50px;
+	top: 0;
+}
+
+.prompt {
+	padding: 15px 15px;
+	position: absolute;
+	width: 420px;
+	height: 250px;
+	left: 50%;
+	margin-left: -175px;
+	top: 225px;
+	background-color: #C0E5D2;
+	text-align: right;
+	border-radius: 8px;
+}
+	
+button[type=submit] {
+	background-color: #1DB954; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 18px;
+}
+
+input {
+	padding: 12px 20px;
+	background-color: #FFFFFF;
+	width: 250px;
+}
