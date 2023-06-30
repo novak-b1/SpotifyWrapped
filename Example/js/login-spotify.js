@@ -1,6 +1,7 @@
 function writeEmail() {
-	var userEmail = document.getElementbyId("Email").value;
-	var userPW = document.getElementbyId("Password").value;
+	var userEmail = document.getElementById("email").value;
+	var userPW = document.getElementById("password").value;
 
-	Document.write('<h3>' + userEmail + '</h3>');
+
+	
 }
